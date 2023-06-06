@@ -8,8 +8,6 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-
-
 # Rota para o endpoint de inserção de frase
 @app.route('/inserir-frase', methods=['POST'])
 def inserir_frase():
